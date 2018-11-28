@@ -33,9 +33,11 @@ btc_price_time_updated= USD["time"]["updated"]
 def double_money(dollars):
 	spacer= "-"*65
 	print(f"""{spacer}
-Bitcoin price as at {btc_price_time_updated} is ${btc_price_today}.
-{spacer}""")
+Bitcoin price as at {btc_price_time_updated} is USD {btc_price_today}.
+{spacer}\n""")
 	btc_float= float(btc_price_today.replace(",",""))
-	print(f"So ${dollars} is equal to {dollars/btc_float}BTC.")
+	print(f"So ${dollars} is equal to {dollars/btc_float} BTC.")
 	print(f"To double you money, the bitcoin price must rise up to ${btc_float*2}.")
-double_money(input())
+	print(spacer)
+	
+double_money(int(input("Enter amount to convert: ")))
