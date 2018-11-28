@@ -37,7 +37,8 @@ Bitcoin price as at {btc_price_time_updated} is USD {btc_price_today}.
 {spacer}\n""")
 	btc_float= float(btc_price_today.replace(",",""))
 	print(f"So ${dollars} is equal to {dollars/btc_float} BTC.")
-	print(f"To double you money, the bitcoin price must rise up to ${btc_float*2}.")
+	print(f"To double your money, the bitcoin price must rise up to ${btc_float*2}.\n")
 	print(spacer)
-	
+
 double_money(int(input("Enter amount to convert: ")))
+
