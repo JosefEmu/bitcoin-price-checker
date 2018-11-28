@@ -38,4 +38,4 @@ Bitcoin price as at {btc_price_time_updated} is ${btc_price_today}.
 	btc_float= float(btc_price_today.replace(",",""))
 	print(f"So ${dollars} is equal to {dollars/btc_float}BTC.")
 	print(f"To double you money, the bitcoin price must rise up to ${btc_float*2}.")
-double_money(20)
+double_money(input())
