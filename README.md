@@ -31,5 +31,6 @@ After running which you will get this prompt "Enter amount to convert:". Just en
 
  - Allow user input for expected gains
  - Create an alert system for when price get to projected levels
+ 
 
-
+*Happy Trails!*
